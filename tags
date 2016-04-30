@@ -1,0 +1,162 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AV_CODEC_ID_MJPEG	include/mos_image_get/MosImgToRos.h	52;"	d
+CLEAR	src/MosImgToRos.cpp	62;"	d	file:
+CLIPVALUE	src/MosImgToRos.cpp	/^static unsigned char CLIPVALUE(int val)$/;"	f	namespace:usb_cam
+CaptImgReqSend	src/MosImgGet.cpp	/^bool tcp_client::CaptImgReqSend()$/;"	f	class:tcp_client
+GET_RAW_IMAGE_PORT	src/MosImgGet.cpp	15;"	d	file:
+GET_RAW_IMAGE_PORT	src/MosImgToRos.cpp	66;"	d	file:
+INST_CAPT_IMAGE	src/MosImgGet.cpp	11;"	d	file:
+INST_IDENTITY	src/MosImgGet.cpp	14;"	d	file:
+INST_SEND_IMAGE	src/MosImgGet.cpp	12;"	d	file:
+IO_METHOD_MMAP	include/mos_image_get/MosImgToRos.h	/^    IO_METHOD_READ, IO_METHOD_MMAP, IO_METHOD_USERPTR, IO_METHOD_UNKNOWN,$/;"	e	enum:usb_cam::UsbCam::__anon1
+IO_METHOD_READ	include/mos_image_get/MosImgToRos.h	/^    IO_METHOD_READ, IO_METHOD_MMAP, IO_METHOD_USERPTR, IO_METHOD_UNKNOWN,$/;"	e	enum:usb_cam::UsbCam::__anon1
+IO_METHOD_UNKNOWN	include/mos_image_get/MosImgToRos.h	/^    IO_METHOD_READ, IO_METHOD_MMAP, IO_METHOD_USERPTR, IO_METHOD_UNKNOWN,$/;"	e	enum:usb_cam::UsbCam::__anon1
+IO_METHOD_USERPTR	include/mos_image_get/MosImgToRos.h	/^    IO_METHOD_READ, IO_METHOD_MMAP, IO_METHOD_USERPTR, IO_METHOD_UNKNOWN,$/;"	e	enum:usb_cam::UsbCam::__anon1
+JPG_RECV_PACKET	include/mos_image_get/MosImgGet.h	/^struct JPG_RECV_PACKET$/;"	s
+JPG_SEND_PACKET	include/mos_image_get/MosImgGet.h	/^struct JPG_SEND_PACKET$/;"	s
+JpgBuffer	include/mos_image_get/MosImgGet.h	/^struct JpgBuffer$/;"	s
+MAX_WIRELESS_RECEIVE	src/MosImgGet.cpp	13;"	d	file:
+MOS_IP	src/MosImgToRos.cpp	65;"	d	file:
+PIXEL_FORMAT_GREY	include/mos_image_get/MosImgToRos.h	/^    PIXEL_FORMAT_YUYV, PIXEL_FORMAT_UYVY, PIXEL_FORMAT_MJPEG, PIXEL_FORMAT_YUVMONO10, PIXEL_FORMAT_RGB24, PIXEL_FORMAT_GREY, PIXEL_FORMAT_UNKNOWN$/;"	e	enum:usb_cam::UsbCam::__anon2
+PIXEL_FORMAT_MJPEG	include/mos_image_get/MosImgToRos.h	/^    PIXEL_FORMAT_YUYV, PIXEL_FORMAT_UYVY, PIXEL_FORMAT_MJPEG, PIXEL_FORMAT_YUVMONO10, PIXEL_FORMAT_RGB24, PIXEL_FORMAT_GREY, PIXEL_FORMAT_UNKNOWN$/;"	e	enum:usb_cam::UsbCam::__anon2
+PIXEL_FORMAT_RGB24	include/mos_image_get/MosImgToRos.h	/^    PIXEL_FORMAT_YUYV, PIXEL_FORMAT_UYVY, PIXEL_FORMAT_MJPEG, PIXEL_FORMAT_YUVMONO10, PIXEL_FORMAT_RGB24, PIXEL_FORMAT_GREY, PIXEL_FORMAT_UNKNOWN$/;"	e	enum:usb_cam::UsbCam::__anon2
+PIXEL_FORMAT_UNKNOWN	include/mos_image_get/MosImgToRos.h	/^    PIXEL_FORMAT_YUYV, PIXEL_FORMAT_UYVY, PIXEL_FORMAT_MJPEG, PIXEL_FORMAT_YUVMONO10, PIXEL_FORMAT_RGB24, PIXEL_FORMAT_GREY, PIXEL_FORMAT_UNKNOWN$/;"	e	enum:usb_cam::UsbCam::__anon2
+PIXEL_FORMAT_UYVY	include/mos_image_get/MosImgToRos.h	/^    PIXEL_FORMAT_YUYV, PIXEL_FORMAT_UYVY, PIXEL_FORMAT_MJPEG, PIXEL_FORMAT_YUVMONO10, PIXEL_FORMAT_RGB24, PIXEL_FORMAT_GREY, PIXEL_FORMAT_UNKNOWN$/;"	e	enum:usb_cam::UsbCam::__anon2
+PIXEL_FORMAT_YUVMONO10	include/mos_image_get/MosImgToRos.h	/^    PIXEL_FORMAT_YUYV, PIXEL_FORMAT_UYVY, PIXEL_FORMAT_MJPEG, PIXEL_FORMAT_YUVMONO10, PIXEL_FORMAT_RGB24, PIXEL_FORMAT_GREY, PIXEL_FORMAT_UNKNOWN$/;"	e	enum:usb_cam::UsbCam::__anon2
+PIXEL_FORMAT_YUYV	include/mos_image_get/MosImgToRos.h	/^    PIXEL_FORMAT_YUYV, PIXEL_FORMAT_UYVY, PIXEL_FORMAT_MJPEG, PIXEL_FORMAT_YUVMONO10, PIXEL_FORMAT_RGB24, PIXEL_FORMAT_GREY, PIXEL_FORMAT_UNKNOWN$/;"	e	enum:usb_cam::UsbCam::__anon2
+PacketCheckSum	src/MosImgGet.cpp	/^bool tcp_client::PacketCheckSum(void)$/;"	f	class:tcp_client
+PacketReconstruct	src/MosImgGet.cpp	/^bool tcp_client::PacketReconstruct(unsigned char beReceived)$/;"	f	class:tcp_client
+RAW_IMAGE_HEIGHT	src/MosImgToRos.cpp	64;"	d	file:
+RAW_IMAGE_WIDTH	src/MosImgToRos.cpp	63;"	d	file:
+RobImgGet	src/MosImgGet.cpp	/^bool tcp_client::RobImgGet()$/;"	f	class:tcp_client
+USB_CAM_USB_CAM_H	include/mos_image_get/MosImgToRos.h	37;"	d
+UsbCam	include/mos_image_get/MosImgToRos.h	/^class UsbCam {$/;"	c	namespace:usb_cam
+UsbCam	src/MosImgToRos.cpp	/^UsbCam::UsbCam()$/;"	f	class:usb_cam::UsbCam
+UsbCamNode	nodes/MosImgToRosNode.cpp	/^            UsbCamNode() :$/;"	f	class:mos_image_get::UsbCamNode
+UsbCamNode	nodes/MosImgToRosNode.cpp	/^    class UsbCamNode$/;"	c	namespace:mos_image_get	file:
+YUV2RGB	src/MosImgToRos.cpp	/^static void YUV2RGB(const unsigned char y, const unsigned char u, const unsigned char v, unsigned char* r,$/;"	f	namespace:usb_cam
+__STDC_CONSTANT_MACROS	src/MosImgToRos.cpp	36;"	d	file:
+auto_white_balance_	nodes/MosImgToRosNode.cpp	/^            bool autofocus_, autoexposure_, auto_white_balance_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+autoexposure_	nodes/MosImgToRosNode.cpp	/^            bool autofocus_, autoexposure_, auto_white_balance_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+autofocus_	nodes/MosImgToRosNode.cpp	/^            bool autofocus_, autoexposure_, auto_white_balance_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+avcodec_	include/mos_image_get/MosImgToRos.h	/^  AVCodec *avcodec_;$/;"	m	class:usb_cam::UsbCam
+avcodec_context_	include/mos_image_get/MosImgToRos.h	/^  AVCodecContext *avcodec_context_;$/;"	m	class:usb_cam::UsbCam
+avframe_camera_	include/mos_image_get/MosImgToRos.h	/^  AVFrame *avframe_camera_;$/;"	m	class:usb_cam::UsbCam
+avframe_camera_size_	include/mos_image_get/MosImgToRos.h	/^  int avframe_camera_size_;$/;"	m	class:usb_cam::UsbCam
+avframe_rgb_	include/mos_image_get/MosImgToRos.h	/^  AVFrame *avframe_rgb_;$/;"	m	class:usb_cam::UsbCam
+avframe_rgb_size_	include/mos_image_get/MosImgToRos.h	/^  int avframe_rgb_size_;$/;"	m	class:usb_cam::UsbCam
+avoptions_	include/mos_image_get/MosImgToRos.h	/^  AVDictionary *avoptions_;$/;"	m	class:usb_cam::UsbCam
+brightness_	nodes/MosImgToRosNode.cpp	/^            int image_width_, image_height_, framerate_, exposure_, brightness_, contrast_, saturation_, sharpness_, focus_,$/;"	m	class:mos_image_get::UsbCamNode	file:
+buf	include/mos_image_get/MosImgGet.h	/^    char buf[640*480*2];$/;"	m	struct:JpgBuffer
+bufRecv	include/mos_image_get/MosImgGet.h	/^        char bufRecv[sizeof(JPG_RECV_PACKET)];$/;"	m	class:tcp_client
+bufRecvToProc	include/mos_image_get/MosImgGet.h	/^        char bufRecvToProc[sizeof(JPG_RECV_PACKET)];$/;"	m	class:tcp_client
+buffer	include/mos_image_get/MosImgToRos.h	/^  struct buffer$/;"	s	class:usb_cam::UsbCam
+buffers_	include/mos_image_get/MosImgToRos.h	/^  buffer * buffers_;$/;"	m	class:usb_cam::UsbCam
+bytes_per_pixel	include/mos_image_get/MosImgToRos.h	/^    int bytes_per_pixel;$/;"	m	struct:usb_cam::UsbCam::__anon3
+cam_	nodes/MosImgToRosNode.cpp	/^            UsbCam cam_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+camera_dev_	include/mos_image_get/MosImgToRos.h	/^  std::string camera_dev_;$/;"	m	class:usb_cam::UsbCam
+camera_image_t	include/mos_image_get/MosImgToRos.h	/^  } camera_image_t;$/;"	t	class:usb_cam::UsbCam	typeref:struct:usb_cam::UsbCam::__anon3
+camera_info_url_	nodes/MosImgToRosNode.cpp	/^            std::string video_device_name_, io_method_name_, pixel_format_name_, camera_name_, camera_info_url_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+camera_name_	nodes/MosImgToRosNode.cpp	/^            std::string video_device_name_, io_method_name_, pixel_format_name_, camera_name_, camera_info_url_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+checksum	include/mos_image_get/MosImgGet.h	/^    unsigned int checksum;$/;"	m	struct:JPG_RECV_PACKET
+checksum	include/mos_image_get/MosImgGet.h	/^    unsigned int checksum;$/;"	m	struct:JPG_SEND_PACKET
+cinfo_	nodes/MosImgToRosNode.cpp	/^            boost::shared_ptr<camera_info_manager::CameraInfoManager> cinfo_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+clipping_table_offset	src/MosImgToRos.cpp	/^const int clipping_table_offset = 128;$/;"	m	namespace:usb_cam	file:
+close_device	src/MosImgToRos.cpp	/^void UsbCam::close_device(void)$/;"	f	class:usb_cam::UsbCam
+contrast_	nodes/MosImgToRosNode.cpp	/^            int image_width_, image_height_, framerate_, exposure_, brightness_, contrast_, saturation_, sharpness_, focus_,$/;"	m	class:mos_image_get::UsbCamNode	file:
+errno_exit	src/MosImgToRos.cpp	/^static void errno_exit(const char * s)$/;"	f	namespace:usb_cam
+exposure_	nodes/MosImgToRosNode.cpp	/^            int image_width_, image_height_, framerate_, exposure_, brightness_, contrast_, saturation_, sharpness_, focus_,$/;"	m	class:mos_image_get::UsbCamNode	file:
+fd_	include/mos_image_get/MosImgToRos.h	/^  int fd_;$/;"	m	class:usb_cam::UsbCam
+focus_	nodes/MosImgToRosNode.cpp	/^            int image_width_, image_height_, framerate_, exposure_, brightness_, contrast_, saturation_, sharpness_, focus_,$/;"	m	class:mos_image_get::UsbCamNode	file:
+framerate_	nodes/MosImgToRosNode.cpp	/^            int image_width_, image_height_, framerate_, exposure_, brightness_, contrast_, saturation_, sharpness_, focus_,$/;"	m	class:mos_image_get::UsbCamNode	file:
+gain_	nodes/MosImgToRosNode.cpp	/^                white_balance_, gain_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+grab_image	src/MosImgToRos.cpp	/^void UsbCam::grab_image()$/;"	f	class:usb_cam::UsbCam
+grab_image	src/MosImgToRos.cpp	/^void UsbCam::grab_image(sensor_msgs::Image* msg)$/;"	f	class:usb_cam::UsbCam
+height	include/mos_image_get/MosImgToRos.h	/^    int height;$/;"	m	struct:usb_cam::UsbCam::__anon3
+identity	include/mos_image_get/MosImgGet.h	/^    unsigned char identity;$/;"	m	struct:JPG_RECV_PACKET
+identity	include/mos_image_get/MosImgGet.h	/^    unsigned char identity;$/;"	m	struct:JPG_SEND_PACKET
+image	include/mos_image_get/MosImgToRos.h	/^    char *image;$/;"	m	struct:usb_cam::UsbCam::__anon3
+image_	include/mos_image_get/MosImgToRos.h	/^  camera_image_t *image_;$/;"	m	class:usb_cam::UsbCam
+image_height_	nodes/MosImgToRosNode.cpp	/^            int image_width_, image_height_, framerate_, exposure_, brightness_, contrast_, saturation_, sharpness_, focus_,$/;"	m	class:mos_image_get::UsbCamNode	file:
+image_pub_	nodes/MosImgToRosNode.cpp	/^            image_transport::CameraPublisher image_pub_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+image_size	include/mos_image_get/MosImgToRos.h	/^    int image_size;$/;"	m	struct:usb_cam::UsbCam::__anon3
+image_width_	nodes/MosImgToRosNode.cpp	/^            int image_width_, image_height_, framerate_, exposure_, brightness_, contrast_, saturation_, sharpness_, focus_,$/;"	m	class:mos_image_get::UsbCamNode	file:
+img_	nodes/MosImgToRosNode.cpp	/^            sensor_msgs::Image img_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+infoSended	include/mos_image_get/MosImgGet.h	/^        JPG_SEND_PACKET *infoSended;$/;"	m	class:tcp_client
+init_device	src/MosImgToRos.cpp	/^void UsbCam::init_device(int image_width, int image_height, int framerate)$/;"	f	class:usb_cam::UsbCam
+init_mjpeg_decoder	src/MosImgToRos.cpp	/^int UsbCam::init_mjpeg_decoder(int image_width, int image_height)$/;"	f	class:usb_cam::UsbCam
+init_mmap	src/MosImgToRos.cpp	/^void UsbCam::init_mmap(void)$/;"	f	class:usb_cam::UsbCam
+init_read	src/MosImgToRos.cpp	/^void UsbCam::init_read(unsigned int buffer_size)$/;"	f	class:usb_cam::UsbCam
+init_userp	src/MosImgToRos.cpp	/^void UsbCam::init_userp(unsigned int buffer_size)$/;"	f	class:usb_cam::UsbCam
+inst_info	include/mos_image_get/MosImgGet.h	/^    unsigned char inst_info;$/;"	m	struct:JPG_RECV_PACKET
+inst_info	include/mos_image_get/MosImgGet.h	/^    unsigned char inst_info;$/;"	m	struct:JPG_SEND_PACKET
+io_	include/mos_image_get/MosImgToRos.h	/^  io_method io_;$/;"	m	class:usb_cam::UsbCam
+io_method	include/mos_image_get/MosImgToRos.h	/^  } io_method;$/;"	t	class:usb_cam::UsbCam	typeref:enum:usb_cam::UsbCam::__anon1
+io_method_from_string	src/MosImgToRos.cpp	/^UsbCam::io_method UsbCam::io_method_from_string(const std::string& str)$/;"	f	class:usb_cam::UsbCam
+io_method_name_	nodes/MosImgToRosNode.cpp	/^            std::string video_device_name_, io_method_name_, pixel_format_name_, camera_name_, camera_info_url_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+is_capturing	src/MosImgToRos.cpp	/^bool UsbCam::is_capturing() {$/;"	f	class:usb_cam::UsbCam
+is_capturing_	include/mos_image_get/MosImgToRos.h	/^  bool is_capturing_;$/;"	m	class:usb_cam::UsbCam
+is_new	include/mos_image_get/MosImgToRos.h	/^    int is_new;$/;"	m	struct:usb_cam::UsbCam::__anon3
+jpgBuffer	include/mos_image_get/MosImgGet.h	/^        JpgBuffer *jpgBuffer;$/;"	m	class:tcp_client
+length	include/mos_image_get/MosImgGet.h	/^    unsigned char length;$/;"	m	struct:JPG_RECV_PACKET
+length	include/mos_image_get/MosImgGet.h	/^    unsigned char length;$/;"	m	struct:JPG_SEND_PACKET
+length	include/mos_image_get/MosImgToRos.h	/^    size_t length;$/;"	m	struct:usb_cam::UsbCam::buffer
+main	nodes/MosImgToRosNode.cpp	/^int main(int argc, char **argv)$/;"	f
+mjpeg2rgb	src/MosImgToRos.cpp	/^void UsbCam::mjpeg2rgb(char *MJPEG, int len, char *RGB, int NumPixels)$/;"	f	class:usb_cam::UsbCam
+mono102mono8	src/MosImgToRos.cpp	/^static void mono102mono8(char *RAW, char *MONO, int NumPixels)$/;"	f	namespace:usb_cam
+monochrome_	include/mos_image_get/MosImgToRos.h	/^  bool monochrome_;$/;"	m	class:usb_cam::UsbCam
+mos_image_get	nodes/MosImgToRosNode.cpp	/^namespace mos_image_get $/;"	n	file:
+n_buffers_	include/mos_image_get/MosImgToRos.h	/^  unsigned int n_buffers_;$/;"	m	class:usb_cam::UsbCam
+node_	nodes/MosImgToRosNode.cpp	/^            ros::NodeHandle node_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+numReceived	include/mos_image_get/MosImgGet.h	/^        int numReceived;$/;"	m	class:tcp_client
+open_device	src/MosImgToRos.cpp	/^void UsbCam::open_device(void)$/;"	f	class:usb_cam::UsbCam
+pixel_format	include/mos_image_get/MosImgToRos.h	/^  } pixel_format;$/;"	t	class:usb_cam::UsbCam	typeref:enum:usb_cam::UsbCam::__anon2
+pixel_format_from_string	src/MosImgToRos.cpp	/^UsbCam::pixel_format UsbCam::pixel_format_from_string(const std::string& str)$/;"	f	class:usb_cam::UsbCam
+pixel_format_name_	nodes/MosImgToRosNode.cpp	/^            std::string video_device_name_, io_method_name_, pixel_format_name_, camera_name_, camera_info_url_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+pixelformat_	include/mos_image_get/MosImgToRos.h	/^  unsigned int pixelformat_;$/;"	m	class:usb_cam::UsbCam
+process_image	src/MosImgToRos.cpp	/^void UsbCam::process_image(const void * src, int len, camera_image_t *dest)$/;"	f	class:usb_cam::UsbCam
+read_frame	src/MosImgToRos.cpp	/^int UsbCam::read_frame()$/;"	f	class:usb_cam::UsbCam
+rgb242rgb	src/MosImgToRos.cpp	/^void rgb242rgb(char *YUV, char *RGB, int NumPixels)$/;"	f	namespace:usb_cam
+saturation_	nodes/MosImgToRosNode.cpp	/^            int image_width_, image_height_, framerate_, exposure_, brightness_, contrast_, saturation_, sharpness_, focus_,$/;"	m	class:mos_image_get::UsbCamNode	file:
+server_addr	include/mos_image_get/MosImgGet.h	/^        struct sockaddr_in server_addr;$/;"	m	class:tcp_client	typeref:struct:tcp_client::sockaddr_in
+service_start_	nodes/MosImgToRosNode.cpp	/^            ros::ServiceServer service_start_, service_stop_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+service_stop_	nodes/MosImgToRosNode.cpp	/^            ros::ServiceServer service_start_, service_stop_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+service_stop_cap	nodes/MosImgToRosNode.cpp	/^            bool service_stop_cap( std_srvs::Empty::Request  &req, std_srvs::Empty::Response &res )$/;"	f	class:mos_image_get::UsbCamNode
+set_auto_focus	src/MosImgToRos.cpp	/^void UsbCam::set_auto_focus(int value)$/;"	f	class:usb_cam::UsbCam
+set_v4l_parameter	src/MosImgToRos.cpp	/^void UsbCam::set_v4l_parameter(const std::string& param, const std::string& value)$/;"	f	class:usb_cam::UsbCam
+set_v4l_parameter	src/MosImgToRos.cpp	/^void UsbCam::set_v4l_parameter(const std::string& param, int value)$/;"	f	class:usb_cam::UsbCam
+sharpness_	nodes/MosImgToRosNode.cpp	/^            int image_width_, image_height_, framerate_, exposure_, brightness_, contrast_, saturation_, sharpness_, focus_,$/;"	m	class:mos_image_get::UsbCamNode	file:
+shutdown	src/MosImgToRos.cpp	/^void UsbCam::shutdown(void)$/;"	f	class:usb_cam::UsbCam
+size	include/mos_image_get/MosImgGet.h	/^    int size;$/;"	m	struct:JpgBuffer
+socket_fd	include/mos_image_get/MosImgGet.h	/^        int socket_fd;$/;"	m	class:tcp_client
+spin	nodes/MosImgToRosNode.cpp	/^            bool spin()$/;"	f	class:mos_image_get::UsbCamNode
+start	include/mos_image_get/MosImgToRos.h	/^    void * start;$/;"	m	struct:usb_cam::UsbCam::buffer
+start	src/MosImgToRos.cpp	/^void UsbCam::start(const std::string& dev, io_method io_method,$/;"	f	class:usb_cam::UsbCam
+start_capturing	src/MosImgToRos.cpp	/^void UsbCam::start_capturing(void)$/;"	f	class:usb_cam::UsbCam
+stop_capturing	src/MosImgToRos.cpp	/^void UsbCam::stop_capturing(void)$/;"	f	class:usb_cam::UsbCam
+streaming_status_	nodes/MosImgToRosNode.cpp	/^            bool streaming_status_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+take_and_send_image	nodes/MosImgToRosNode.cpp	/^            bool take_and_send_image()$/;"	f	class:mos_image_get::UsbCamNode
+tcp_client	include/mos_image_get/MosImgGet.h	/^class tcp_client$/;"	c
+tcp_client_connect	src/MosImgGet.cpp	/^void tcp_client::tcp_client_connect(char* server_ip)$/;"	f	class:tcp_client
+tcp_client_disconnect	src/MosImgGet.cpp	/^void tcp_client::tcp_client_disconnect()$/;"	f	class:tcp_client
+uchar_clipping_table	src/MosImgToRos.cpp	/^const unsigned char uchar_clipping_table[] = {$/;"	m	namespace:usb_cam	file:
+uninit_device	src/MosImgToRos.cpp	/^void UsbCam::uninit_device(void)$/;"	f	class:usb_cam::UsbCam
+updated	include/mos_image_get/MosImgGet.h	/^    int updated;$/;"	m	struct:JpgBuffer
+usb_cam	include/mos_image_get/MosImgToRos.h	/^namespace usb_cam {$/;"	n
+usb_cam	src/MosImgToRos.cpp	/^namespace usb_cam {$/;"	n	file:
+uyvy2rgb	src/MosImgToRos.cpp	/^void uyvy2rgb(char *YUV, char *RGB, int NumPixels)$/;"	f	namespace:usb_cam
+version	include/mos_image_get/MosImgGet.h	/^    char version[3];$/;"	m	struct:JPG_RECV_PACKET
+version	include/mos_image_get/MosImgGet.h	/^    char version[3];$/;"	m	struct:JPG_SEND_PACKET
+video_device_name_	nodes/MosImgToRosNode.cpp	/^            std::string video_device_name_, io_method_name_, pixel_format_name_, camera_name_, camera_info_url_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+video_sws_	include/mos_image_get/MosImgToRos.h	/^  struct SwsContext *video_sws_;$/;"	m	class:usb_cam::UsbCam	typeref:struct:usb_cam::UsbCam::SwsContext
+white_balance_	nodes/MosImgToRosNode.cpp	/^                white_balance_, gain_;$/;"	m	class:mos_image_get::UsbCamNode	file:
+width	include/mos_image_get/MosImgToRos.h	/^    int width;$/;"	m	struct:usb_cam::UsbCam::__anon3
+xioctl	src/MosImgToRos.cpp	/^static int xioctl(int fd, int request, void * arg)$/;"	f	namespace:usb_cam
+yuyv2rgb	src/MosImgToRos.cpp	/^static void yuyv2rgb(char *YUV, char *RGB, int NumPixels)$/;"	f	namespace:usb_cam
+~UsbCam	src/MosImgToRos.cpp	/^UsbCam::~UsbCam()$/;"	f	class:usb_cam::UsbCam
+~UsbCamNode	nodes/MosImgToRosNode.cpp	/^            virtual ~UsbCamNode()$/;"	f	class:mos_image_get::UsbCamNode
