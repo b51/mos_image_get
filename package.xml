@@ -3,6 +3,7 @@
   <version>0.3.4</version>
   <description>get and show image from mos in ros</description>
 
+  <maintainer email="b51live@gmail.com">b51live</maintainer>
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
