@@ -62,7 +62,7 @@
 #define CLEAR(x) memset (&(x), 0, sizeof (x))
 #define RAW_IMAGE_WIDTH 640
 #define RAW_IMAGE_HEIGHT 480
-#define MOS_IP "192.168.0.108"
+#define MOS_IP "192.168.199.183"
 #define GET_RAW_IMAGE_PORT 50002
 
 namespace usb_cam {
