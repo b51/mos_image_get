@@ -16,85 +16,6 @@
 
 using namespace std;
 
-//struct JpgBuffer
-//{
-//    char buf[640*480*2];
-//    int size;
-//    int updated;
-//};
-//
-//struct JPG_SEND_PACKET
-//{
-//    unsigned char identity;
-//    char version[3];
-//    unsigned char length;
-//    unsigned char inst_info;
-//    unsigned int checksum;
-//};
-//
-//struct JPG_RECV_PACKET
-//{
-//    unsigned char identity;
-//    char version[3];
-//    unsigned char length;
-//    unsigned char inst_info;
-//    unsigned int checksum;
-//};
-
-//struct ExCameraParameter
-//{
-//  int exposuretime;
-//  int gain;
-//  int whitebalancetemperature;
-//  int roll;
-//  int yaw;
-//  
-//  int OrangeColor;
-//  int OrangeDeviation;
-//  int OrangeMinSatuation;
-//  int OrangeMaxSatuation;
-//  int OrangeMinV;
-//  int OrangeMaxV;
-//
-//  int YellowColor;
-//  int YellowDeviation;
-//  int YellowMinSatuation;
-//  int YellowMaxSatuation;
-//  int YellowMinV;
-//  int YellowMaxV;
-//
-//  int BlueColor;
-//  int BlueDeviation;
-//  int BlueMinSatuation;
-//  int BlueMaxSatuation;
-//  int BlueMinV;
-//  int BlueMaxV;
-//  
-//  int Green_H_Min;
-//  int Green_H_Max;
-//  int Green_S_Min;
-//  int Green_S_Max;
-//};
-
-//class tcp_client
-//{
-//    private:
-//        int socket_fd;
-//        int numReceived;
-//        JPG_SEND_PACKET *infoSended;
-//        char bufRecv[sizeof(JPG_RECV_PACKET)];
-//        char bufRecvToProc[sizeof(JPG_RECV_PACKET)];
-//        struct sockaddr_in server_addr;
-//        bool PacketReconstruct(unsigned char beReceived);
-//        bool PacketCheckSum();
-//    public:
-//        JpgBuffer *jpgBuffer;
-//        bool CaptImgReqSend();
-//        bool RobImgGet();
-//        void tcp_client_connect(char* server_ip,char* server_port);
-//        void tcp_client_disconnect();
-//};
-
 bool tcp_client::CaptImgReqSend()
 {
     int i;
@@ -282,28 +203,6 @@ void tcp_client::tcp_client_connect(char* server_ip)
         exit(0);
     }
     
-    //CaptImgReqSend();
-    //RobImgGet();
-    //if (jpgBuffer->updated)
-    //{
-    //    return true;
-    //}
-    //else
-    //{
-
-    //if( send( socket_fd,pcSendBuffer,sizeof(pcSendBuffer),0 ) < 0 )
-    //{
-    //    printf("send message error\n");
-    //    exit(0);
-    //}
-
-    //if(recv(socket_fd,rawImageBuf,RAW_IMAGE_SIZE,0) < 0)
-    //{
-    //    printf("receive image error\n");
-    //    exit(0);
-    //}
-
-    //}
 }
 
 void tcp_client::tcp_client_disconnect()

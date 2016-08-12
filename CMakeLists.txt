@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS image_transport roscpp std_msgs std_srvs
 
 ## pkg-config libraries
 find_package(PkgConfig REQUIRED)
+find_package(OpenCV REQUIRED)
 pkg_check_modules(avcodec libavcodec REQUIRED)
 pkg_check_modules(swscale libswscale REQUIRED)
 
@@ -20,7 +21,7 @@ pkg_check_modules(swscale libswscale REQUIRED)
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
   INCLUDE_DIRS include
-  LIBRARIES ${PROJECT_NAME}
+  LIBRARIES ${PROJECT_NAME} ${OpenCV_LIBS}
 )
 
 ###########
@@ -41,6 +42,7 @@ target_link_libraries(${PROJECT_NAME}
   ${avcodec_LIBRARIES}
   ${swscale_LIBRARIES}
   ${catkin_LIBRARIES}
+  ${OpenCV_LIBS}
 )
 
 ## Declare a cpp executable
@@ -50,6 +52,7 @@ target_link_libraries(${PROJECT_NAME}_node
   ${avcodec_LIBRARIES}
   ${swscale_LIBRARIES}
   ${catkin_LIBRARIES}
+  ${OpenCV_LIBS}
 )
 
 #############
